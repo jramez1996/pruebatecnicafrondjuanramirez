@@ -1,0 +1,301 @@
+.App {
+  text-align: center;
+}
+.ant-layout-header{
+  height: 60px !important;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.carLogin{
+  max-width: 600px;
+}
+@media (max-width: 600px) {
+  .iniciarLogin{
+    width: 100%;
+  }
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.headTitleApp{
+  color: aliceblue;
+  font-size: 18px;
+  background:"#006FC0";
+  line-height: 60px;
+  text-align: left;
+  color: #fff !important;
+  min-height: 60px;
+
+}
+
+
+.formItemOlvideContrasenia{
+  position: relative;
+  top: -17px;
+}
+
+.listRestric .CloseOutlined{
+  color: red;
+}
+.listRestric{
+  list-style: none;
+}
+
+.listRestric .CheckOutlined{
+  color: green;
+}
+.RangePicker-filtro{
+  width: 100% !important;
+}
+.btnFiltrar{
+  width: 100%;
+  position: relative !important;
+  top: 40px !important;
+  display: flex !important;
+}
+.btnFiltrar button{
+  width: 100%;
+}
+
+.btnFooterFiltro{
+  width: 100% !important;
+}
+.contentPago .ant-form-item{
+  padding: 1px;
+}
+.formItemRango{
+  position: relative;
+  top: 15px;
+}
+.formItemRango .anticon-swap-right{
+  position: relative;
+  top: -14px;
+}
+.btnFiltrar{
+  width: auto;
+  float: right;
+  position: relative;
+ 
+}
+.btnFiltrarResult{
+  width: 80% !important;
+  position: absolute;
+  bottom: 10px !important;
+}
+
+.contentFiltroBtn{
+  float: right;
+  position: relative;
+  top: -30px !important;
+}
+.contentBtnNuevo{
+  float: left;
+  position: relative;
+  top: -15px !important;
+  background:red;
+  display:block;
+}
+.colBtn{
+  position: absolute !important;
+  bottom: 10px !important;
+  width: 50% !important;
+}
+.colBtnCancelar{
+  position: absolute;
+  right: 0px;
+  width: 100% !important;
+  bottom: 11px;
+}
+.formGroup{
+  padding: 5px;
+}
+.formGroup .anticon-file-excel{
+  color: green;
+}
+.btnNuevo{
+  min-width: 180px;
+}
+.btnNuevoRegistrar{
+  min-width:250px;
+}
+
+
+
+.inputrowremove::-webkit-outer-spin-button,
+.inputrowremove::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.inputrowremove[type=number] {
+  -moz-appearance: textfield;
+}
+.paginationTable{
+  margin-top: 20px !important;
+}
+.btnAsignar{
+  margin-top: 20px;
+}
+.contentbtn{
+  margin: auto;
+  margin-top: 50px;
+}
+.btnasing{
+  margin: 10px;
+}
+.datapinckerfull{
+  width: 100% !important;
+}
+
+.errorMensaje{
+  color: red !important;
+  position: relative;
+  top: -27px;
+  left: 14px;
+}
+.site-page-header-left{
+  padding: 0px;
+}
+.contentPago .ant-card-head-title{
+  padding: 0px;
+}
+.contentPago .ant-page-header{
+  padding: 0px;
+}
+.btnAccion{
+  margin: 5px;
+}
+.datapinkerfull{
+  width: 100%;
+}
+.errorMensaje{
+  color: red !important;
+}
+.linkSaveInfo{
+  margin-top: 15px !important;
+  display: block;
+}
+.errorMensajeText{
+  color: red;
+  margin-top: 10px;
+}
+.contentCargo .ant-form-item{
+    padding: 0px !important;
+}
+.contentOption{
+  position: absolute;
+  right: 0px;
+}
+.contentTable{
+  position: relative;
+  top: 19px;
+}
+.contentOption .ant-input{
+  width: 60%;
+  min-width: 350px;
+}
+
+.formPredio .ant-row{
+  margin-bottom: 0px;
+}
+
+.formPredio .ant-form-item-required{
+  height: 0px;
+}
+.checkpagarTodos{
+  position: relative;
+  top: 33px;
+
+}
+.contentCiudadano .ant-table {
+  position: relative;
+  top: 20px;
+}
+.contentTable {
+  position: relative;
+  top: 60px;
+ 
+}
+
+.checkpagarTodos{
+  position: absolute;
+  right: 0px;
+}
+.contentBtnVenta{
+  width: 100%;
+  display: flex;
+  position: relative;
+  left: 15px;
+}
+.contentBtnVenta button{
+  position: relative;
+  top: 50px;
+  left: 20px;
+  
+}
+
+.contentBtnVenta .ant-form-item{
+  display: block;
+}
+@media (max-width: 600px) {
+  .contentBtnVenta{
+    width: 100%;
+    display: flex;
+    position: relative;
+    left: 0px;
+  }
+}
+@media (min-width: 600px) {
+  
+  .formProduct{
+    width: 100%;
+    display: flex !important;
+  }
+  .filterProductAdavance{
+    position: relative !important;
+    top: 50px !important;
+    left: 9px !important;
+  }
+  .formProduct  .ant-row {
+    display: block;
+    width: 100%;
+  }
+}
+.modalContent{
+  top: 20px !important;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  transform-origin: 76px 209.5px;
+  position: fixed !important;
+  height: 100% !important;
+}
+.modalContent .ant-modal-content{
+  height: 90vh;
+}
+.modalContent .ant-modal-footer{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
